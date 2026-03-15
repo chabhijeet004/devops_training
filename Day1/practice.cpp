@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     
-    string x="abaaacbaa";//string 
+    string x="ronak is gandu %%%";//string 
 
     vector<int> freq(128,0);//freq array 
 
@@ -18,5 +18,6 @@ int main(){
             cout<<char(i)<<" freq is: "<<freq[i]<<endl;
         }
     }
+    
     
 }

@@ -29,8 +29,6 @@ jobs:
 
     - name: Build Docker Image
       run: docker build -t test-image ./Day1
-      working-directory: .
 
     - name: Run Docker Container
       run: docker run test-image
-      working-directory: .
